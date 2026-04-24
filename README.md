@@ -21,7 +21,7 @@ It converts user input into structured, job-ready resumes with minimal manual ef
 * **Frontend:** Streamlit
 * **Backend:** FastAPI
 * **Language:** Python
-* **AI/NLP:** LLM APIs
+* **AI/NLP:** LLM APIs, Prompt engineering, RAG
 
 ---
 
