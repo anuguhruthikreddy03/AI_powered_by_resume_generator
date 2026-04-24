@@ -44,6 +44,11 @@ It converts user input into structured, job-ready resumes with minimal manual ef
 ### 1. Clone Repository
 
 
+## ⚙️ Setup
+
+### 1. Clone Repository
+
+```bash
 git clone https://github.com/anuguhruthikreddy03/AI_powered_by_resume_generator.git
 cd AI_powered_by_resume_generator
 
