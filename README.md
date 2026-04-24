@@ -27,7 +27,7 @@ It converts user input into structured, job-ready resumes with minimal manual ef
 
 ## 🏗️ Architecture
 
-
+```text
 [ Streamlit UI ]
         │
         ▼
@@ -39,56 +39,22 @@ It converts user input into structured, job-ready resumes with minimal manual ef
         ▼
 [ Formatter + Export Engine ]
 
-⚙️ Setup & Installation
-1. Clone Repository
-Bash
-git clone [https://github.com/anuguhruthikreddy03/AI_powered_by_resume_generator.git](https://github.com/anuguhruthikreddy03/AI_powered_by_resume_generator.git)
-cd AI_powered_by_resume_generator
-2. Create Virtual Environment
-Windows:
+```
+## How It Works
 
-Bash
-python -m venv venv
-venv\Scripts\activate
-Mac/Linux:
+* User enters personal and professional details
 
-Bash
-python3 -m venv venv
-source venv/bin/activate
-3. Install Dependencies
-Bash
-pip install -r requirements.txt
-4. Environment Variables
-Create a .env file in the root directory:
+* Backend processes and validates input
 
-Code snippet
-API_KEY=your_api_key
-SECRET_KEY=your_secret_key
-▶️ Run the Application
-To start the full-stack app, run the backend and frontend separately:
+* AI generates optimized resume content
 
-Start Backend:
+* Resume is structured into sections
 
-Bash
-uvicorn main:app --reload
-Start Frontend:
+* User previews and downloads the resume
 
-Bash
-streamlit run app.py
-🧠 How It Works
-Input: User enters personal and professional details.
 
-Processing: Backend processes and validates input.
+# 📊 Impact
 
-AI Generation: AI generates optimized resume content.
-
-Formatting: Resume is structured into professional sections.
-
-Output: User previews and downloads the final resume.
-
-📊 Impact
-⏱️ Efficiency: Reduces resume creation time significantly.
-
-📈 Quality: Improves content quality and ATS structure.
-
-💼 Career Support: Helps beginners build professional-grade resumes.
+* ⏱️ Reduces resume creation time
+* 📈 Improves content quality and structure
+* 💼 Helps beginners build professional resumes
