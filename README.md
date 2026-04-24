@@ -27,7 +27,7 @@ It converts user input into structured, job-ready resumes with minimal manual ef
 
 ## 🏗️ Architecture
 
-```text
+
 [ Streamlit UI ]
         │
         ▼
